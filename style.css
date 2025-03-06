@@ -1,0 +1,138 @@
+body {
+    background-color: antiquewhite;
+    margin-bottom: -20px;
+}
+
+header {
+    background-color: rgb(19, 17, 29);
+    gap: 30px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -9px;
+    margin-bottom: 60px;
+    gap: 500px;
+}
+.logo {
+   border-radius: 30px;
+   justify-content: left;
+
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+   
+}
+.menu link {
+    color: black;
+}
+.menu :hover {
+    color: whitesmoke;
+}
+.menu :active {
+    color: red;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    
+}
+.home {
+    margin-top: -20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+.service_images {
+width: 300px;
+height: 500px;
+border-radius: 20px;
+
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    gap: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+.about-logo {
+    width: 100px;
+  
+    
+}
+.aboutpara {
+    text-align: right;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.socialimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+address {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+footer {
+    background-color: rgb(19, 17, 29);
+    padding: 7px;
+    text-align: center;
+    color: white;
+}
+@media (max-width:900px) {
+    .menu {
+       display: block;
+       text-align: center;
+    }
+
+    .services {
+        display: block;
+       text-align: center;
+    }
+
+    .about {
+        display: block;
+       text-align: center;
+    }
+    .logo {
+        display: block;
+       text-align: center;
+    }
+}
