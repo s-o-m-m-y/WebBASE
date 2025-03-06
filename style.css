@@ -28,10 +28,12 @@ nav {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
-   
+    list-styl: none;
+    color: #fff;
 }
-.menu link {
-    color: black;
+.menu li a{
+    text-decoration: none;
+    color: #fff;
 }
 .menu :hover {
     color: whitesmoke;
