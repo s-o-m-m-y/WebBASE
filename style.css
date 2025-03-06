@@ -29,11 +29,13 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
     list-style: none;
-    color: white;
+    color: #fff;
     padding: 0;
     margin: 0;
+}
+.menu li a {
+    color: #fff;
     text-decoration: none;
-    
 }
 .menu :hover {
     color: whitesmoke;
